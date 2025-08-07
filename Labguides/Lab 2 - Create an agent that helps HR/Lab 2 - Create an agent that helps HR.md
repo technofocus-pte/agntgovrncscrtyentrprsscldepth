@@ -34,7 +34,7 @@ activities: 
 - Wait for the IT/procurement team to confirm procurement and then email
   the new employee with onboarding instructions. 
 
-## **Exercise 1: Create the autonomous agent **
+## **Exercise 1: Create the autonomous agent**
 
 ### **Task 1: Create a custom table in Dataverse**
 
@@ -106,7 +106,7 @@ onboarding details collected by the chatbot.
 > ![A screenshot of a computer screen AI-generated content may be
 > incorrect.](./media/image7.png)
 
-### **Task 2: Create an Autonomous Onboarding gent **
+### **Task 2: Create an Autonomous Onboarding gent**
 
 1.  To create a new agent in Copilot Studio, sign in to Copilot Studio
     using <https://go.microsoft.com/fwlink/?LinkId=2107702> with the
@@ -193,7 +193,7 @@ onboarding details collected by the chatbot.
 > ![A screenshot of a computer AI-generated content may be
 > incorrect.](./media/image17.png) 
 
-### **Task 3: Enhance agent intelligence **
+### **Task 3: Enhance agent intelligence**
 
 You can enhance the **Employee Onboarding Agent** that you created in
 the previous task by adding knowledge and intelligence to the agent. 
@@ -243,6 +243,8 @@ the previous task by adding knowledge and intelligence to the agent. 
 
 ## **Exercise 2: Create the Agent flow** 
 
+### **Task 1: Add When an agent calls the flow**
+
 1.  Go to Copilot Studio Agent overview page.
 
 2.  Navigate to **Flows** \> **+ New Agent flows** \> select **Instant
@@ -256,21 +258,15 @@ the previous task by adding knowledge and intelligence to the agent. 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image24.png)
 
-### **Task 1: Add When an agent calls the flow**
-
-This is the trigger used in Power Automate. The flow starts when the
-Copilot agent calls it. You'll use the **"When a Power Virtual Agents
-call this flow"** trigger.
-
-1.  Click on the trigger button, search and select **When an agent calls
+4.  Click on the trigger button, search and select **When an agent calls
     the flow** trigger.
 
 > ![](./media/image25.png)
 
-2.  Configure “**When an agent calls the flow”** trigger by following
+5.  Configure “**When an agent calls the flow”** trigger by following
     the steps below.
 
-3.  Add the following input parameters to the flow.
+6.  Add the following input parameters to the flow.
 
 > Employee ID
 >
@@ -289,7 +285,7 @@ call this flow"** trigger.
 > ![A screenshot of a computer AI-generated content may be
 > incorrect.](./media/image26.png)
 
-4.  Click on collapse icon **\<\<** to save the changes.
+7.  Click on collapse icon **\<\<** to save the changes.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image27.png)
@@ -684,4 +680,5 @@ storage, use agent flow, enhance agent functionality by adding knowledge
 source, customize conversation topics to improve user interaction. You
 learnt how to automate key onboarding tasks such as generating employee
 records and sending emails.
+
 
