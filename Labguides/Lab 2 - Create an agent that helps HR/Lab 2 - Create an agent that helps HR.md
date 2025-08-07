@@ -36,21 +36,21 @@ activities: 
 
 ## **Exercise 1: Create the autonomous agent **
 
-### **Task 1: Create a custom table in Dataverse **
+### **Task 1: Create a custom table in Dataverse**
 
 A Dataverse table named Employee Record is used to store all employee
 onboarding details collected by the chatbot.
 
 1.  Go to the Power Apps maker portal using
-    <https://make.powerapps.com/> and if required sign in with the given
+    +++https://make.powerapps.com/+++ and if required sign in with the given
     Office 365 Admin tenant credentials.  
 
-2.  Create an **Employee details** Excel sheet in your local system
+2.  Open the **Employee details** excel sheet located in the VM **C:\Labfiles** folder. Enter your email address under the **Email** column and enter given Mod Admin’s email id under the **ManagerEmail** column for all the entries. Save the changes and close the excel sheet. 
 
 > ![A screenshot of a computer AI-generated content may be
 > incorrect.](./media/image1.png)
 
-3.  Navigate to **Power Apps** \> **Tables** \> select **Create new
+3.  Navigate to **Power Apps** > **Tables** > select **Create new
     tables** from the **New table** dropdown.
 
 > ![A screenshot of a computer AI-generated content may be
@@ -684,3 +684,4 @@ storage, use agent flow, enhance agent functionality by adding knowledge
 source, customize conversation topics to improve user interaction. You
 learnt how to automate key onboarding tasks such as generating employee
 records and sending emails.
+
