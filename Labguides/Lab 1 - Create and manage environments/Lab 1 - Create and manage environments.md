@@ -1,3 +1,14 @@
+---
+lab:
+  title: 'Lab 1: Create and manage environment using Power Platform Admin Center'
+  description: at https://admin.powerplatform.microsoft.com and sign in with your Office 365 tenant credentials.
+  duration: 20 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Office 365
+---
+
 # **Lab 1: Create and manage environment using Power Platform Admin Center**
 
 **Estimated Duration:** 20 min
