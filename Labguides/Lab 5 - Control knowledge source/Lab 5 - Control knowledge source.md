@@ -1,3 +1,12 @@
+---
+lab:
+  title: 'Lab 5: Control knowledge source with public websites in Copilot Studio'
+  description: <https://learn.microsoft.com/en-us/microsoft-copilot-studio/ and then select Add.
+  duration: 20 minutes
+  level: 100
+  islab: true
+---
+
 # **Lab 5: Control knowledge source with public websites in Copilot Studio**
 
 **Estimated Duration:** 20 min
