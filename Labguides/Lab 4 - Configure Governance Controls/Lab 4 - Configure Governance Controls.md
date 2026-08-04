@@ -1,3 +1,14 @@
+---
+lab:
+  title: 'Lab 4: Configure Governance Controls for your Copilot Studio Agents'
+  description: Studio](https://copilotstudio.microsoft.com/) using <https://copilotstudio.microsoft.com/. Sign in with your Office 365 Admin tenant credentials.
+  duration: 60 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Office 365
+---
+
 # **Lab 4: Configure Governance Controls for your Copilot Studio Agents**
 
 **Estimated time:** 60 min
