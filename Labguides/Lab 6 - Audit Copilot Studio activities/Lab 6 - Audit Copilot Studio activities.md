@@ -1,3 +1,15 @@
+---
+lab:
+  title: 'Lab 6: Audit Copilot Studio activities in Microsoft Purview'
+  description: portal](https://purview.microsoft.com/) using <https://purview.microsoft.com/ with the given Office 365 Admin tenant credentials.
+  duration: 15 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Microsoft Purview
+    - Office 365
+---
+
 # **Lab 6: Audit Copilot Studio activities in Microsoft Purview**
 
 **Estimated Duration:** 15 min
