@@ -1,7 +1,8 @@
 ---
 lab:
   title: 'Lab 2: Create an agent that helps HR with onboarding a new employee'
-  description: You will send a notification to the HR team to inform them that a new employee onboarding request has been submitted.
+  description: In this lab, you will learn how to automate the employee
+onboarding process at by building the Agent.
   duration: 60 minutes
   level: 100
   islab: true
