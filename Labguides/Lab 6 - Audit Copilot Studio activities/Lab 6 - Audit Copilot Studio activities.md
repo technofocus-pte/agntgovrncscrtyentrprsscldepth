@@ -1,7 +1,9 @@
 ---
 lab:
   title: 'Lab 6: Audit Copilot Studio activities in Microsoft Purview'
-  description: portal](https://purview.microsoft.com/) using <https://purview.microsoft.com/ with the given Office 365 Admin tenant credentials.
+  description: In this lab, you will learn how Copilot Studio logs
+activities related to both administrative and maker and user
+interactions with agents in Microsoft Purview.
   duration: 15 minutes
   level: 100
   islab: true
