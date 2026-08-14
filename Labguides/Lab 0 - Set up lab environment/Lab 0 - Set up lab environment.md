@@ -1,7 +1,8 @@
 ---
 lab:
   title: Lab 0 Set up lab environment
-  description: selector, select the developer environment – Dev One which is created for you.
+  description: In this lab, you will acquire Power Apps trial license.
+You will also add users and assign licenses to them at the same time.
   duration: 10 minutes
   level: 100
   islab: true
