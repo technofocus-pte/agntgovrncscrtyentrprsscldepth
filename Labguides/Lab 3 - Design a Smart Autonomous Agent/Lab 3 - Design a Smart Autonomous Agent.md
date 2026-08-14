@@ -1,6 +1,6 @@
 ---
 lab:
-  title: 'Exercise 1: Create and Configure Contoso Agent'
+  title: 'Lab 3: Design a Smart Autonomous Agent for Recruitment Workflows'
   description: In this exercise, you'll create a flow to schedule interviews and integrate it with your Copilot agent. You'll set up a series of inputs, such as name, email, and experience, to collect applicant information. Then, you'll configure actions to add the data to a Dataverse table, send an interview invitation email, and save and publish the flow. Finally, you'll integrate the flow into your Copilot agent, enabling it to automate the interview scheduling process.
   duration: 60 minutes
   level: 200
