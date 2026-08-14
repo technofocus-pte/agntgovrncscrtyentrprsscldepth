@@ -1,3 +1,18 @@
+---
+lab:
+  title: 'Lab 4: Configure Governance Controls for your Copilot Studio Agents'
+  description: In this lab, you will learn how to create security group
+and add members to the security group from the Microsoft 365 admin
+center, import and share agent solutions, and enforce governance
+policies using the Power Platform admin center. You will also learn how
+to configure data access and deploy agents to ensure secure, scalable.
+  duration: 60 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Office 365
+---
+
 # **Lab 4: Configure Governance Controls for your Copilot Studio Agents**
 
 **Estimated time:** 60 min

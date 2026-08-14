@@ -1,3 +1,17 @@
+---
+lab:
+  title: 'Lab 6: Audit Copilot Studio activities in Microsoft Purview'
+  description: In this lab, you will learn how Copilot Studio logs
+activities related to both administrative and maker and user
+interactions with agents in Microsoft Purview.
+  duration: 15 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Microsoft Purview
+    - Office 365
+---
+
 # **Lab 6: Audit Copilot Studio activities in Microsoft Purview**
 
 **Estimated Duration:** 15 min

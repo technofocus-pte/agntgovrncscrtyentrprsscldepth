@@ -1,3 +1,14 @@
+---
+lab:
+  title: 'Lab 5: Control knowledge source with public websites in Copilot Studio'
+  description: In this lab, you will learn how to create data loss
+prevention (DLP) policies to configure which knowledge sources across
+environments that agent authors can connect to for data.
+  duration: 20 minutes
+  level: 100
+  islab: true
+---
+
 # **Lab 5: Control knowledge source with public websites in Copilot Studio**
 
 **Estimated Duration:** 20 min

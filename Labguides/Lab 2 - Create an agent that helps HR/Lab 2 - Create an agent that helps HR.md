@@ -1,3 +1,13 @@
+---
+lab:
+  title: 'Lab 2: Create an agent that helps HR with onboarding a new employee'
+  description: In this lab, you will learn how to automate the employee
+onboarding process at by building the Agent.
+  duration: 60 minutes
+  level: 100
+  islab: true
+---
+
 # **Lab 2: Create an agent that helps HR with onboarding a new employee**
 
 **Estimated Duration**: 60 min

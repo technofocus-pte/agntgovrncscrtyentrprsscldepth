@@ -1,3 +1,13 @@
+---
+lab:
+  title: Lab 0 Set up lab environment
+  description: In this lab, you will acquire Power Apps trial license.
+You will also add users and assign licenses to them at the same time.
+  duration: 10 minutes
+  level: 100
+  islab: true
+---
+
 **Lab 0: Set up lab environment**
 
 **Estimated Duration:** 10 min
