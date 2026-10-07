@@ -1,3 +1,4 @@
+
 <!--
 lab:
   title: 'Lab 2: Create an agent that helps HR with onboarding a new employee'
@@ -37,9 +38,9 @@ In this lab, you will learn how to automate the employee onboarding process at b
 
 A Dataverse table named Employee Record is used to store all employee onboarding details collected by the chatbot.
 
-1. Go to the Power Apps maker portal using +++https://make.powerapps.com/+++ and if required sign in with the given Office 365 Admin tenant credentials.
+1. Go to the Power Apps maker portal using +++https://make.powerapps.com/+++ and if required sign in with the given Office 365 Admin tenant credentials.
 
-1. Open the **Employee details** excel sheet located in the VM **C:\Labfiles** folder. Enter your email address under the **Email** column and enter given Mod Admin’s email id under the **ManagerEmail** column for all the entries. Save the changes and close the excel sheet.
+1. Open the **Employee details** excel sheet located in the VM **C:\Labfiles** folder. Enter your email address under the **Email** column and enter given Mod Admin's email id under the **ManagerEmail** column for all the entries. Save the changes and close the excel sheet.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image1.png)
 
@@ -79,7 +80,7 @@ A Dataverse table named Employee Record is used to store all employee onboarding
     >
     > Date of Joining: **Text**
     >
-    > Manager’s email: **Text**
+    > Manager's email: **Text**
     >
     >[!Note] This table acts as the central database for storing all relevant employee onboarding data.
     >
@@ -92,17 +93,17 @@ A Dataverse table named Employee Record is used to store all employee onboarding
 
 ### Task 2: Create an Autonomous Onboarding gent
 
-1. To create a new agent in Copilot Studio, sign in to Copilot Studio using <https://go.microsoft.com/fwlink/?LinkId=2107702> with the given Office 365 Admin tenant credentials. Complete the authentication process and then select **Sign In**.
+1. To create a new agent in Copilot Studio, sign in to Copilot Studio using <https://go.microsoft.com/fwlink/?LinkId=2107702> with the given Office 365 Admin tenant credentials. Complete the authentication process and then select **Sign In**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image8.png)
 
 1. Fill up the following required information and then select **Get Started**.
 
-    > **Country or Region** – United States
+    > **Country or Region** - United States
     >
-    > **Job title** – Your job title
+    > **Job title** - Your job title
     >
-    > **Business phone number** – Your phone number
+    > **Business phone number** - Your phone number
     >
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image9.png)
@@ -123,15 +124,15 @@ A Dataverse table named Employee Record is used to store all employee onboarding
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image13.png)
 
-1. Select **Create** in the left navigation pane then select the **New Agent** box.
+1. Select **Create** in the left navigation pane then select the **New Agent** box.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image14.png)
 
-1. From the **Create New Agent** screen, select **Skip to configure** to create the agent manually you can choose from two methods to create an agent.
+1. From the **Create New Agent** screen, select **Skip to configure** to create the agent manually you can choose from two methods to create an agent.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image15.png)
 
-1. The **Create New Agent** screen has three fields: **Name**, **Description**, and **Instructions**. Enter the following information in these fields:
+1. The **Create New Agent** screen has three fields: **Name**, **Description**, and **Instructions**. Enter the following information in these fields:
 
     - **Name** - Employee Onboarding Agent
     - **Description** - An agent developed to simplify the employee
@@ -143,36 +144,36 @@ A Dataverse table named Employee Record is used to store all employee onboarding
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image16.png)
 
 
-1. Select the **Create** button to create the agent.
+1. Select the **Create** button to create the agent.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image17.png)
 
 
 ### Task 3: Enhance agent intelligence
 
-You can enhance the **Employee Onboarding Agent** that you created in the previous task by adding knowledge and intelligence to the agent.
+You can enhance the **Employee Onboarding Agent** that you created in the previous task by adding knowledge and intelligence to the agent.
 
-1. To add generative reasoning to the agent, in the **Orchestration** section, turn on **Use generative AI to determine how best to respond to users and events**. This selection allows generative AI reasoning to respond to questions from different users.
+1. To add generative reasoning to the agent, in the **Orchestration** section, turn on **Use generative AI to determine how best to respond to users and events**. This selection allows generative AI reasoning to respond to questions from different users.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image18.png)
 
-    >[!Note] In addition to enhancing knowledge from generative AI, you can use the **Knowledge** section to add your enterprise knowledge base.
+    >[!Note] In addition to enhancing knowledge from generative AI, you can use the **Knowledge** section to add your enterprise knowledge base.
 
-1. To upload your resources and create a knowledge base, select the **Add knowledge** button to ensure that your agent has the information for accurate and efficient responses.
+1. To upload your resources and create a knowledge base, select the **Add knowledge** button to ensure that your agent has the information for accurate and efficient responses.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image19.png)
 
-1. In the **Add knowledge** wizard, select **Dataverse** to connect the table.
+1. In the **Add knowledge** wizard, select **Dataverse** to connect the table.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image20.png)
 
-1. On Step **1 of 3: Select Dataverse tables** wizard page, follow these steps to connect the table from Dataverse:
+1. On Step **1 of 3: Select Dataverse tables** wizard page, follow these steps to connect the table from Dataverse:
 
-    - In the search bar, search for the table named **Employee Record**.
-    - From the list of tables that contain **Employee Record** in their
+    - In the search bar, search for the table named **Employee Record**.
+    - From the list of tables that contain **Employee Record** in their
     names, select the table that you want to connect to. You can select multiple tables as a knowledge source.
 
-    - Click **Add** to continue.
+    - Click **Add** to continue.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image21.png)
 
@@ -197,7 +198,7 @@ You can enhance the **Employee Onboarding Agent** that you created in the pr
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image25.png)
 
-1. Configure “**When an agent calls the flow”** trigger by following the steps below.
+1. Configure "**When an agent calls the flow"** trigger by following the steps below.
 
 1. Add the following input parameters to the flow.
 
@@ -213,7 +214,7 @@ You can enhance the **Employee Onboarding Agent** that you created in the pr
     >
     > Date of Joining
     >
-    > Manager’s email
+    > Manager's email
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image26.png)
 
@@ -222,7 +223,7 @@ You can enhance the **Employee Onboarding Agent** that you created in the pr
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image27.png)
 
 
-### Task 2: Add “Add a new row” trigger
+### Task 2: Add "Add a new row" trigger
 
 This trigger refers to potential enhancements where you might want to act upon changes to the Dataverse table.
 
@@ -256,7 +257,7 @@ This trigger refers to potential enhancements where you might want to act upon c
     >
     > Date of Joining
     >
-    > Manager’s email
+    > Manager's email
     >
     >[!Note] This step ensures all collected data is stored properly in the Dataverse table.
 
@@ -267,7 +268,7 @@ This trigger refers to potential enhancements where you might want to act upon c
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image31.png)
 
 
-### Task 3: Add “Send an email (V2)” Trigger (For HR)
+### Task 3: Add "Send an email (V2)" Trigger (For HR)
 
 You will send a notification to the HR team to inform them that a new employee onboarding request has been submitted.
 
@@ -279,36 +280,38 @@ You will send a notification to the HR team to inform them that a new employee o
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image33.png)
 
-1. Configure the “**Send an email**” trigger
+1. Configure the "**Send an email**" trigger:
 
-    > **To:** HR (MOD Admin email – Start typing Admin and select MOD Admin
-    ```
-    from the suggestion)
-    **Subject:** New Employee Onboarding Request
-    **Body:**
-    Dear HR,
-    Please start the onboarding process for the new employee:
-    Name: /Employee Name *{Select **Employee Name** from Dynamic content}*
-    Department: /Department *{Select **Department** from Dynamic content}*
-    Start Date: /Date of joining <Select **Date of joining** from Dynamic
-    content>
-    Regards,
-    ```
-
-    HR Onboarding Assistant
+    > **To:** HR (MOD Admin email - start typing **Admin** and select **MOD Admin** from the suggestion)
+    >
+    > **Subject:** New Employee Onboarding Request
+    >
+    > **Body:**
+    >
+    > Dear HR,
+    >
+    > Please start the onboarding process for the new employee:
+    >
+    > - Name: /Employee Name *{Select **Employee Name** from Dynamic content}*
+    > - Department: /Department *{Select **Department** from Dynamic content}*
+    > - Start Date: /Date of joining *{Select **Date of joining** from Dynamic content}*
+    >
+    > Regards,
+    >
+    > HR Onboarding Assistant
 
     >[!Note] Set up the **dynamic value** for each parameter using triggerBody.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image34.png)
 
 
-### Task 4: Add “Send an email” Trigger (For Employee)
+### Task 4: Add "Send an email" Trigger (For Employee)
 
 You now configure another email step to acknowledge the employee about their onboarding.
 
 1. Again, add **Send an email** action to send the confirmation email to the respective employees for their onboarding request
 
-1. Click on add a new action “**+”** sign to add Send an email trigger
+1. Click on add a new action "**+"** sign to add Send an email trigger
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image35.png)
 
@@ -412,7 +415,7 @@ Manually test the flow from Power Automate or from within Copilot Studio to veri
 
 1. **Question node 1:**
 
-    **Question:** Enter your full name? **Identify as:** User’s entire response **Var:** empname
+    **Question:** Enter your full name? **Identify as:** User's entire response **Var:** empname
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image48.png)
 
@@ -420,7 +423,7 @@ Manually test the flow from Power Automate or from within Copilot Studio to veri
 
 1. **Question node 2:**
 
-    **Question:** What is your employee ID? **Identify as:** User’s entire response **Var:** empId
+    **Question:** What is your employee ID? **Identify as:** User's entire response **Var:** empId
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image50.png)
 
@@ -428,31 +431,31 @@ Manually test the flow from Power Automate or from within Copilot Studio to veri
 
 1. **Question node 3:**
 
-    **Question:** Provide your email Id **Identify as:** User’s entire response **Var:** email
+    **Question:** Provide your email Id **Identify as:** User's entire response **Var:** email
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image52.png)
 
 1. **Question node 4:**
 
-    **Question:** Enter the department name **Identify as:** User’s entire response **Var:** dept
+    **Question:** Enter the department name **Identify as:** User's entire response **Var:** dept
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image53.png)
 
 1. **Question node 5:**
 
-    **Question:** Enter the date of joining **Identify as:** User’s entire response **Var:** doj
+    **Question:** Enter the date of joining **Identify as:** User's entire response **Var:** doj
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image54.png)
 
 1. **Question node 6:**
 
-    **Question:** Enter the designation **Identify as:** User’s entire response **Var:** dsgn
+    **Question:** Enter the designation **Identify as:** User's entire response **Var:** dsgn
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image55.png)
 
 1. **Question node 7:**
 
-    **Question:** Enter the Manager’s email address **Identify as:** User’s entire response **Var:** mgremail
+    **Question:** Enter the Manager's email address **Identify as:** User's entire response **Var:** mgremail
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image56.png)
 
@@ -485,7 +488,7 @@ Manually test the flow from Power Automate or from within Copilot Studio to veri
 
     > **Message:**
     >
-    > “Thank you for providing your onboarding details. Your request has
+    > "Thank you for providing your onboarding details. Your request has
     > been forwarded to the HR team. You will receive a confirmation email
     > upon successful completion of the onboarding process."
 
@@ -523,11 +526,11 @@ Optionally configure your **Conversation start** topic to redirect to employee d
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image68.png)
 
-1. To validate correct email and data logging, go to MOD Admin’s outlook account to check if Manger’s email is triggered.
+1. To validate correct email and data logging, go to MOD Admin's outlook account to check if Manger's email is triggered.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image69.png)
 
-1. Now go to the employee’s Outlook account to check Employee confirmation email is triggered.
+1. Now go to the employee's Outlook account to check Employee confirmation email is triggered.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image70.png)
 
