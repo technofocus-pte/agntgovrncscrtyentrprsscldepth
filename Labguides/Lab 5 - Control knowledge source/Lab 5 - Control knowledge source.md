@@ -21,7 +21,7 @@ In this lab, you will learn how to create data loss prevention (DLP) policies to
 
 ### Task 1: Create a policy
 
-1. Navigate to Power Platform admin center using [**https://admin.powerplatform.microsoft.com**](urn:gd:lg:a:send-vm-keys) and if required, sign in with your Office 365 tenant credentials.
+1. Navigate to Power Platform admin center using +++https://admin.powerplatform.microsoft.com+++ and if required, sign in with your Office 365 tenant credentials.
 
 1. From the left navigation pane, select **Security**. Under **Security**, select **Data and privacy** then select **Data policy** tile.
 
@@ -31,11 +31,11 @@ In this lab, you will learn how to create data loss prevention (DLP) policies to
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%205%20-%20Control%20knowledge%20source/media/image2.png)
 
-1. Enter name of the policy **- PP-Knowledge Src Policy** and click **Next**.
+1. Enter name of the policy `- PP-Knowledge Src Policy` and click **Next**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%205%20-%20Control%20knowledge%20source/media/image3.png)
 
-1. For connectors pertaining to agent knowledge sources, search for "Knowledge source". You should see three connectors in the results: **Knowledge source with SharePoint and OneDrive in Copilot Studio**, **Knowledge source with public websites and data in Copilot Studio**, and **Knowledge source with documents in Copilot Studio**.
+1. For connectors pertaining to agent knowledge sources, search for `Knowledge source`. You should see three connectors in the results: **Knowledge source with SharePoint and OneDrive in Copilot Studio**, **Knowledge source with public websites and data in Copilot Studio**, and **Knowledge source with documents in Copilot Studio**.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%205%20-%20Control%20knowledge%20source/media/image4.png)
 
