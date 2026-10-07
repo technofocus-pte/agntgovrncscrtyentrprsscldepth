@@ -35,7 +35,7 @@ In this lab, you will learn how to create security group and add members to the 
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image2.png)
 
-1. Add the group Name: [+++PPS-security+++ and** Description:**](urn:gd:lg:a:send-vm-keys) Power Platform security group and then click **Next**.
+1. Add the group **Name:** +++PPS-security+++ and **Description:** +++Power Platform security group+++, and then click **Next**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image3.png)
 
