@@ -1,4 +1,4 @@
----
+<!--
 lab:
   title: 'Lab 4: Configure Governance Controls for your Copilot Studio Agents'
   description: In this lab, you will learn how to create security group
@@ -11,610 +11,496 @@ to configure data access and deploy agents to ensure secure, scalable.
   islab: true
   primarytopics:
     - Office 365
----
+-->
 
-# **Lab 4: Configure Governance Controls for your Copilot Studio Agents**
+# Lab 4: Configure Governance Controls for your Copilot Studio Agents
 
 **Estimated time:** 60 min
 
-**Objective**: In this lab, you will learn how to create security group
-and add members to the security group from the Microsoft 365 admin
-center, import and share agent solutions, and enforce governance
-policies using the Power Platform admin center. You will also learn how
-to configure data access and deploy agents to ensure secure, scalable.
+### Objective
 
-## **Exercise 1: Control user access to environments: security groups and licenses**
+In this lab, you will learn how to create security group and add members to the security group from the Microsoft 365 admin center, import and share agent solutions, and enforce governance policies using the Power Platform admin center. You will also learn how to configure data access and deploy agents to ensure secure, scalable.
 
-### **Task 1: Create a security group and add members to the security group**
+## Exercise 1: Control user access to environments: security groups and licenses
 
-1.  Open new tab in the same browser and navigate to **Microsoft 365
-    admin
-    center** using [**https://admin.microsoft.com**](urn:gd:lg:a:send-vm-keys).
-    Sign in with your Office 365 tenant credentials.
+### Task 1: Create a security group and add members to the security group
 
-2.  Select **Teams & groups** \> **Active teams & groups**.
+1. Open new tab in the same browser and navigate to **Microsoft 365 admin center** using [**https://admin.microsoft.com**](urn:gd:lg:a:send-vm-keys). Sign in with your Office 365 tenant credentials.
 
-> ![](./media/image1.png)
+1. Select **Teams & groups** \> **Active teams & groups**.
 
-3.  Select **Security group** tab and then select **+Add a security
-    group**.
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image1.png)
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image2.png)
+1. Select **Security group** tab and then select **+Add a security group**.
 
-4.  Add the group Name: [**PPS-security**
-    and** Description:**](urn:gd:lg:a:send-vm-keys) Power Platform
-    security group and then click **Next**.
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image2.png)
 
-> ![](./media/image3.png)
+1. Add the group Name: [+++PPS-security+++ and** Description:**](urn:gd:lg:a:send-vm-keys) Power Platform security group and then click **Next**.
 
-5.  Click on **Create group** button.
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image3.png)
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image4.png)
+1. Click on **Create group** button.
 
-6.  Click on **Close** button to close the window.
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image4.png)
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image5.png)
+1. Click on **Close** button to close the window.
 
-7.  Select the PPS-security group you created.
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image5.png)
 
-> ![](./media/image6.png)
+1. Select the PPS-security group you created.
 
-8.  Select **Members** tab and then click on **View all and managed
-    members** hyper link.
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image6.png)
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image7.png)
+1. Select **Members** tab and then click on **View all and managed members** hyper link.
 
-9.  Click on **+ Add members**.
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image7.png)
 
-> ![](./media/image8.png)
+1. Click on **+ Add members**.
 
-10. Select the first three users (For example here, Brooke, Connie and
-    Jacob) to add to the security group and then select **Add(3).**
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image8.png)
 
-> ![](./media/image9.png)
+1. Select the first three users (For example here, Brooke, Connie and Jacob) to add to the security group and then select **Add(3).**
 
-11. **Close** the ‘Members’ pane to return to the **Groups** list.
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image9.png)
 
-> ![A screenshot of a group of members AI-generated content may be
-> incorrect.](./media/image10.png)
+1. **Close** the ‘Members’ pane to return to the **Groups** list.
 
-12. You have completed this task, please do not close the tab and 
-    proceed ahead with the next task.
+    ![A screenshot of a group of members AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image10.png)
 
-**Task 2: Associate a security group with a Dataverse environment**
+1. You have completed this task, please do not close the tab and proceed ahead with the next task.
 
-1.  Open new tab and navigate to Power Platform admin center
-    using [**https://admin.powerplatform.microsoft.com**](urn:gd:lg:a:send-vm-keys) and
-    if required, sign in with your Office 365 tenant credentials. 
 
-2.  In the navigation pane, select **Manage \>** **Environments**, and
-    then select **+New**.
+### Task 2: Associate a security group with a Dataverse environment
 
-> ![](./media/image11.png)
+1. Open new tab and navigate to Power Platform admin center using [**https://admin.powerplatform.microsoft.com**](urn:gd:lg:a:send-vm-keys) and if required, sign in with your Office 365 tenant credentials.
 
-3.  On the New environment window, enter the following information.
+1. In the navigation pane, select **Manage \>** **Environments**, and then select **+New**.
 
-> **Name:** Test
->
-> **Region**: United States – Default
->
-> **Type**: Trial
->
-> **Add a Dataverse data store**: Yes
->
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image12.png)
->
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image13.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image11.png)
 
-4.  Keep the **Language** as **English (United States)**, **Currency**
-    as **USD** and then click on **+** **Select**.
+1. On the New environment window, enter the following information.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image14.png)
+    **Name:** Test
 
-5.  Under the **Restricted access**, select **PPS-Security** and then
-    select **Done**.
+    **Region**: United States – Default
 
-> ![](./media/image15.png)
+    **Type**: Trial
 
-6.  You can see under Security group, **PPS-security** group is added
-    and then select **Save**.
+    **Add a Dataverse data store**: Yes
 
-> ![](./media/image16.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image12.png)
 
-## **Exercise 2: Create an agent**
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image13.png)
 
-### **Task 1: Create an agent**
+1. Keep the **Language** as **English (United States)**, **Currency** as **USD** and then click on **+** **Select**.
 
-1.  Navigate to [Microsoft Copilot
-    Studio](https://copilotstudio.microsoft.com/) using
-    <https://copilotstudio.microsoft.com/>. Sign in with your Office 365
-    Admin tenant credentials.
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image14.png)
 
-2.  From the environment selector, select **Test** environment that has
-    the tables you created in the previous exercise.
+1. Under the **Restricted access**, select **PPS-Security** and then select **Done**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image17.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image15.png)
 
-3.  Select **Create** from the left navigation pane and select the **New
-    agent** tile.
+1. You can see under Security group, **PPS-security** group is added and then select **Save**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image18.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image16.png)
 
-4.  Select **Skip to configure** in the top-right corner of the agent
-    creation screen.
 
-> ![](./media/image19.png)
+## Exercise 2: Create an agent
 
-5.  In the **Name** text box, enter **Real Estate Booking Service.**
+### Task 1: Create an agent
 
-> ![Screenshot of Details pane in Copilot Studio
-> portal.](./media/image20.png)
+1. Navigate to [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/) using <https://copilotstudio.microsoft.com/>. Sign in with your Office 365 Admin tenant credentials.
 
-6.  In the **Description** text box, enter **Create bookings for real
-    estate properties.**
+1. From the environment selector, select **Test** environment that has the tables you created in the previous exercise.
 
-7.  In the **Instructions** text box, enter **Speak courteously and
-    mimic the behavior of a real estate agent.** Select **Create**.
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image17.png)
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image21.png)
+1. Select **Create** from the left navigation pane and select the **New agent** tile.
 
-### **Task 2: Configure Security**
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image18.png)
 
-1.  Select **Settings** in the top-right of the **Real Estate Booking
-    Service** agent's screen.
+1. Select **Skip to configure** in the top-right corner of the agent creation screen.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image22.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image19.png)
 
-2.  Select the **Security** tab and then select
-    the **Authentication** tile.
+1. In the **Name** text box, enter **Real Estate Booking Service.**
 
-> ![](./media/image23.png)
+    ![Screenshot of Details pane in Copilot Studio portal.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image20.png)
 
-3.  Select **No authentication** and select **Save**.
+1. In the **Description** text box, enter **Create bookings for real estate properties.**
 
-> ![](./media/image24.png)
+1. In the **Instructions** text box, enter **Speak courteously and mimic the behavior of a real estate agent.** Select **Create**.
 
-4.  Select **Save** in the **Save this configuration?** window.
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image21.png)
 
-> ![](./media/image25.png)
 
-5.  Close the **Settings** menu and return to your **Real Estate Booking
-    Service** agent.
+### Task 2: Configure Security
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image26.png)
+1. Select **Settings** in the top-right of the **Real Estate Booking Service** agent's screen.
 
-## **Exercise 3: Configure DLP to block Power Platform connectors in the Power Platform admin center**
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image22.png)
 
-**Task 1: Create a policy**
+1. Select the **Security** tab and then select the **Authentication** tile.
 
-1.  Navigate to Power Platform admin center
-    using [**https://admin.powerplatform.microsoft.com**](urn:gd:lg:a:send-vm-keys) and
-    if required, sign in with your Office 365 tenant credentials. 
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image23.png)
 
-2.  From the left navigation pane, select **Security**.
-    Under **Security**, select **Data and privacy** then select **Data
-    policy** tile.
+1. Select **No authentication** and select **Save**.
 
-> ![](./media/image27.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image24.png)
 
-3.  To create a new policy, select **+New policy**.
+1. Select **Save** in the **Save this configuration?** window.
 
-> ![](./media/image28.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image25.png)
 
-4.  Enter name of the policy **- PP-Connector Policy** and
-    click **Next**.
+1. Close the **Settings** menu and return to your **Real Estate Booking Service** agent.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image29.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image26.png)
 
-5.  In the search box, type **MSN**, select **more actions** (3 dots)
-    for **MSN Weather** connector and then select **Block**.
 
-> ![](./media/image30.png)
+## Exercise 3: Configure DLP to block Power Platform connectors in the Power Platform admin center
 
-6.  Select **Blocked** tab, you can see **MSN Weather** connector which
-    you have just blocked. Select **Next**.
+### Task 1: Create a policy
 
-> ![](./media/image31.png)
+1. Navigate to Power Platform admin center using [**https://admin.powerplatform.microsoft.com**](urn:gd:lg:a:send-vm-keys) and if required, sign in with your Office 365 tenant credentials.
 
-7.  Do not add any connectors and click on **Next**.
+1. From the left navigation pane, select **Security**. Under **Security**, select **Data and privacy** then select **Data policy** tile.
 
-> ![](./media/image32.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image27.png)
 
-8.  In **Scope**, select **Add multiple environments** and then
-    click **Next.**
+1. To create a new policy, select **+New policy**.
 
-> ![](./media/image33.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image28.png)
 
-9.  Select your **Test** trial environment and then click on **+Add to
-    policy**.
+1. Enter name of the policy **- PP-Connector Policy** and click **Next**.
 
-> ![](./media/image34.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image29.png)
 
-10. Select **Added to policy** tab and then click **Next**.
+1. In the search box, type +++MSN+++, select **more actions** (3 dots) for **MSN Weather** connector and then select **Block**.
 
-> ![](./media/image35.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image30.png)
 
-11. **Review** the policy and then click on **Create policy**.
+1. Select **Blocked** tab, you can see **MSN Weather** connector which you have just blocked. Select **Next**.
 
-> ![](./media/image36.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image31.png)
 
-12. Your **Policy** got created.
+1. Do not add any connectors and click on **Next**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image37.png)
->
-> **Task 2: Confirm policy enforcement**
->
-> You can confirm that this connector is being used in the DLP policy
-> from Copilot Studio:
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image32.png)
 
-1.  Go back to Copilot Studio portal. Ensure that You are in **Test**
-    environment where the DLP policy is applied.
+1. In **Scope**, select **Add multiple environments** and then click **Next.**
 
-> ![](./media/image38.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image33.png)
 
-2.  Select **Agents** from the left navigation pane. Open **Real Estate
-    Booking Service** agent.
+1. Select your **Test** trial environment and then click on **+Add to policy**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image39.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image34.png)
 
-3.  Select **Topics** tab. Select **Custom(4)** tab.
+1. Select **Added to policy** tab and then click **Next**.
 
-> ![](./media/image40.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image35.png)
 
-4.  Select **+ Add a topic** \> **Add from description with Copilot**.
+1. **Review** the policy and then click on **Create policy**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image41.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image36.png)
 
-5.  Enter following Information and then select **Create**.
+1. Your **Policy** got created.
 
-> **Name your topic:** Property Viewings Scheduling
->
-> **Create a topic to...:** This topic would allow users to schedule
-> property viewings directly through the chatbot, streamlining the
-> booking process and enhancing the user experience
->
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image42.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image37.png)
 
-6.  For a better view, close the **Edit with Copilot** pane.
+    **Task 2: Confirm policy enforcement**
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image43.png)
+    You can confirm that this connector is being used in the DLP policy from Copilot Studio:
 
-7.  At the end of the last node select **+** icon to add new node.
+1. Go back to Copilot Studio portal. Ensure that You are in **Test** environment where the DLP policy is applied.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image44.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image38.png)
 
-8.  Select **Add a tool** node and then select **Connector** tab.
+1. Select **Agents** from the left navigation pane. Open **Real Estate Booking Service** agent.
 
-> ![](./media/image45.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image39.png)
 
-9.  In the node's properties, select **Connectors** and choose your
-    connection. Save your topic.
+1. Select **Topics** tab. Select **Custom(4)** tab.
 
-> ![](./media/image46.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image40.png)
 
-10. Click on **Not connected** and select **Create new connection**.
+1. Select **+ Add a topic** \> **Add from description with Copilot**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image47.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image41.png)
 
-11. Select **Create**.
+1. Enter following Information and then select **Create**.
 
-> **Note**: If asked, sign in with the given Office 365 tenant
-> credentials.
->
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image48.png)
+    > **Name your topic:** Property Viewings Scheduling
+    >
+    > **Create a topic to...:** This topic would allow users to schedule
+    > property viewings directly through the chatbot, streamlining the
+    > booking process and enhancing the user experience
 
-12. You can see the message as Connection creation has been blocked by
-    Data Loss Prevention (DLP) policy ‘PP-Connector policy’. This shows
-    your policy is enforced.
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image42.png)
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image49.png)
+1. For a better view, close the **Edit with Copilot** pane.
 
-## **Exercise 4: Import and Export a Copilot Studio Agent Solution**
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image43.png)
 
-**Task 1: Export an Agent into Copilot Studio**
+1. At the end of the last node select **+** icon to add new node.
 
-1.  In Copilot Studio, select the menu icon (**…**) on the side
-    navigation pane, and then select **Solutions**.
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image44.png)
 
-![](./media/image50.png)
+1. Select **Add a tool** node and then select **Connector** tab.
 
-2.  Select **+New solution**.
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image45.png)
 
-![](./media/image51.png)
+1. In the node's properties, select **Connectors** and choose your connection. Save your topic.
 
-3.  Enter the following information and then select **+New publisher**.
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image46.png)
 
-**Display name**: Real Estate
+1. Click on **Not connected** and select **Create new connection**.
 
-**Name**: RealEstate
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image47.png)
 
-![](./media/image52.png)
+1. Select **Create**.
 
-4.  On the **New publisher** pane, enter the following information and
-    then select **Save**.
+    >[!Note] If asked, sign in with the given Office 365 tenant credentials.
 
-**Display name:** Booking Service
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image48.png)
 
-**Name:** BookingService
+1. You can see the message as Connection creation has been blocked by Data Loss Prevention (DLP) policy ‘PP-Connector policy’. This shows your policy is enforced.
 
-**Prefix**: book
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image49.png)
 
-![](./media/image53.png)
 
-5.  Now on the **New solution** pane, a new publisher name, i.e.
-    **Booking Service**, has been selected already. If not, then select
-    it from the drop-down list.
+## Exercise 4: Import and Export a Copilot Studio Agent Solution
 
-![](./media/image54.png)
+### Task 1: Export an Agent into Copilot Studio
 
-6.  Now, you will be in **Real Estate** solution.
+1. In Copilot Studio, select the menu icon (**…**) on the side navigation pane, and then select **Solutions**.
 
-![](./media/image55.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image50.png)
 
-7.  Click on the **Add existing** drop-down then select **Agent** \>
-    **Agent**.
+1. Select **+New solution**.
 
-![](./media/image56.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image51.png)
 
-8.  Select **Real Estate Booking Service** agent and then click on the
-    **Add** button.
+1. Enter the following information and then select **+New publisher**.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image57.png)
+    **Display name**: Real Estate
 
-9.  After adding the agent to the solution, select **Publish all
-    customizations**.
+    **Name**: RealEstate
 
-![](./media/image58.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image52.png)
 
-10. When you see the message ‘**Publish all customizations succeeded’**
-    then click on the back arrow to go back to the **Agents** page.
+1. On the **New publisher** pane, enter the following information and then select **Save**.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image59.png)
+    **Display name:** Booking Service
 
-11. On the Copilot Studio portal, select Agents from the left navigation
-    pane. Click the **ellipsis (...)** icon on the **Real Estate Booking
-    Service Agent** and select **Export Agent**.
+    **Name:** BookingService
 
-![](./media/image60.png)
+    **Prefix**: book
 
-12. In the **Agent Solution**, click the **ellipsis (...)** icon again
-    and select **Export solution**.
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image53.png)
 
-![](./media/image61.png)
+1. Now on the **New solution** pane, a new publisher name, i.e. **Booking Service**, has been selected already. If not, then select it from the drop-down list.
 
-13. Click **Next** to proceed.
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image54.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image62.png)
+1. Now, you will be in **Real Estate** solution.
 
-14. Select the **Unmanaged** option and then click on the **Export**
-    button.
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image55.png)
 
-![](./media/image63.png)
+1. Click on the **Add existing** drop-down then select **Agent** \> **Agent**.
 
-15. You can see the given message, ‘Currently exporting solution’.
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image56.png)
 
-![A close-up of a text AI-generated content may be
-incorrect.](./media/image64.png)
+1. Select **Real Estate Booking Service** agent and then click on the **Add** button.
 
-16. Once the export is complete, click on the **Download** button from
-    the top. The agent will be downloaded to the **Downloads** folder in
-    the VM.
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image57.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image65.png)
+1. After adding the agent to the solution, select **Publish all customizations**.
 
-> **Task 2: Import Agent into Copilot Studio**
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image58.png)
 
-1.  On the Copilot Studio portal, click on the **Environment selector**
-    and select **Dev One** environment.
+1. When you see the message ‘**Publish all customizations succeeded’** then click on the back arrow to go back to the **Agents** page.
 
-![](./media/image66.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image59.png)
 
-2.  In Microsoft Copilot Studio, click on **Agents** from the left-hand
-    menu and then click on the **Import Agent.**
+1. On the Copilot Studio portal, select Agents from the left navigation pane. Click the **ellipsis (...)** icon on the **Real Estate Booking Service Agent** and select **Export Agent**.
 
-![](./media/image67.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image60.png)
 
-3.  In the top menu bar, click **Import** **solution**.
+1. In the **Agent Solution**, click the **ellipsis (...)** icon again and select **Export solution**.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image68.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image61.png)
 
-4.  Click the **Browse** button and navigate to the Lab Files folder on
-    the virtual machine.
+1. Click **Next** to proceed.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image69.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image62.png)
 
-5.  Select the **RealEstate solution** lab file from the Downloads
-    folder on the VM, click on the **Open** button.
+1. Select the **Unmanaged** option and then click on the **Export** button.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image70.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image63.png)
 
-6.  Select **Next** to proceed.
+1. You can see the given message, ‘Currently exporting solution’.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image71.png)
+    ![A close-up of a text AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image64.png)
 
-7.  Click the **Import** button to import the agent solution.
+1. Once the export is complete, click on the **Download** button from the top. The agent will be downloaded to the **Downloads** folder in the VM.
 
-![](./media/image72.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image65.png)
 
-8.  After successful import, select the newly imported agent solution.
-    Click on the **More commands** (3 dots).
+    > **Task 2: Import Agent into Copilot Studio**
 
-9.  Click **Set preferred solution** from the top bar.
+1. On the Copilot Studio portal, click on the **Environment selector** and select **Dev One** environment.
 
-![](./media/image73.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image66.png)
 
-10. Click **Apply** to confirm the selected solution.
+1. In Microsoft Copilot Studio, click on **Agents** from the left-hand menu and then click on the **Import Agent.**
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image74.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image67.png)
 
-**Task 3: Share Agent with Another User**
+1. In the top menu bar, click **Import** **solution**.
 
-1.  Click on the **ellipsis (...)** icon on the **Contoso Agent** and
-    select **Share**.
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image68.png)
 
-> ![](./media/image75.png)
+1. Click the **Browse** button and navigate to the Lab Files folder on the virtual machine.
 
-2.  In the **New User** field, enter **Sara** and select the user **Sara
-    Perez** from the dropdown.
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image69.png)
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image76.png)
+1. Select the **RealEstate solution** lab file from the Downloads folder on the VM, click on the **Open** button.
 
-3.  Click on the **Update** button to share the agent.
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image70.png)
 
-> ![](./media/image77.png)
+1. Select **Next** to proceed.
 
-4.  After successful sharing, click the **Close (X)** icon to exit the
-    sharing window.
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image71.png)
 
-> ![](./media/image78.png)
+1. Click the **Import** button to import the agent solution.
 
-## **Exercise 5: Configure Access and Deploy Copilot Studio Agent**
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image72.png)
 
-**Task 1: Configure Data Access for Specific Users**
+1. After successful import, select the newly imported agent solution. Click on the **More commands** (3 dots).
 
-1.  From the left-hand menu under **Copilot**, click **Settings**.
+1. Click **Set preferred solution** from the top bar.
 
-> ![](./media/image79.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image73.png)
 
-2.  Go to the **Data Access** section and click on **Agent**.
+1. Click **Apply** to confirm the selected solution.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image80.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image74.png)
 
-3.  Choose **Specific users/group** option.
 
-> ![](./media/image81.png)
+### Task 3: Share Agent with Another User
 
-4.  Enter and select **MOD Administrator** and **Sara Perez** users then
-    click **Save** to apply access settings.
+1. Click on the **ellipsis (...)** icon on the **Contoso Agent** and select **Share**.
 
-> ![](./media/image82.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image75.png)
 
-**Task 2: Deploy Agent and Assign User**
+1. In the **New User** field, enter +++Sara+++ and select the user **Sara Perez** from the dropdown.
 
-1.  In the left menu under **Copilot**, click **Agent and Connectors**.
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image76.png)
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image83.png)
+1. Click on the **Update** button to share the agent.
 
-2.  In the Agent Inventory, search for **Microsoft 365**, then open the
-    **Admin Agent**.
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image77.png)
 
-> ![](./media/image84.png)
+1. After successful sharing, click the **Close (X)** icon to exit the sharing window.
 
-3.  Click **Deploy** from the top options and then click on the **Next**
-    button.
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image78.png)
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image85.png)
->
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image86.png)
 
-4.  Select on the **Just me** option, and then click on the **Next**
-    button.
+## Exercise 5: Configure Access and Deploy Copilot Studio Agent
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image87.png)
+### Task 1: Configure Data Access for Specific Users
 
-5.  Click **Next** again, then click on the **Finish deployment**
-    button.
+1. From the left-hand menu under **Copilot**, click **Settings**.
 
-> ![](./media/image88.png)
->
-> ![](./media/image89.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image79.png)
 
-6.  Click **Done** to complete.
+1. Go to the **Data Access** section and click on **Agent**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image90.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image80.png)
 
-7.  To assign new user access, go to **Users**, then select **Deployed
-    to**.
+1. Choose **Specific users/group** option.
 
-8.  Select **Specified user/group**,
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image81.png)
 
-> ![](./media/image91.png)
+1. Enter and select **MOD Administrator** and **Sara Perez** users then click **Save** to apply access settings.
 
-9.  Enter **Sara** and select the user, **Sara Perez**.
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image82.png)
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image92.png)
 
-10. Click on the **Update** button to add new user.
+### Task 2: Deploy Agent and Assign User
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image93.png)
+1. In the left menu under **Copilot**, click **Agent and Connectors**.
 
-11. Click the **X** on the top-right to close.
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image83.png)
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image94.png)
+1. In the Agent Inventory, search for **Microsoft 365**, then open the **Admin Agent**.
 
-**Task 3: Test Microsoft 365 Admin Copilot Agent Functionality**
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image84.png)
 
-1.  Open a Microsoft Edge new tab and navigate to office 365 copilot
-    <https://www.office.com/> then click on the **Sign in** button.
+1. Click **Deploy** from the top options and then click on the **Next** button.
 
-![](./media/image95.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image85.png)
 
-2.  If asked, sign in with the given **Office 365** **Admin tenant
-    credentials.**
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image86.png)
 
-![](./media/image96.png)
+1. Select on the **Just me** option, and then click on the **Next** button.
 
-3.  On the left-hand menu, locate and click on the **Microsoft 365 Admin
-    Agent**.
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image87.png)
 
-![](./media/image97.png)
+1. Click **Next** again, then click on the **Finish deployment** button.
 
-**Note:** If the agent doesn’t appear immediately, wait a few minutes
-for it to load.
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image88.png)
 
-4.  Click on the **“Learn admin tasks”** prompt to test the agent. Click
-    the **Execute** button to run the prompt.
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image89.png)
 
-![](./media/image98.png)
+1. Click **Done** to complete.
 
-5.  The prompt will run and return the results, confirming successful
-    execution.
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image90.png)
 
-![](./media/image99.png)
+1. To assign new user access, go to **Users**, then select **Deployed to**.
 
-**Summary**: In this lab, you learnt to create a security group, add
-members and associate it with Dataverse environment. You created a DLP
-policy and examined its impact on the agent. You imported agent from
-trial environment to developer environment and shared that with the
-user.
+1. Select **Specified user/group**,
+
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image91.png)
+
+1. Enter +++Sara+++ and select the user, **Sara Perez**.
+
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image92.png)
+
+1. Click on the **Update** button to add new user.
+
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image93.png)
+
+1. Click the **X** on the top-right to close.
+
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image94.png)
+
+
+### Task 3: Test Microsoft 365 Admin Copilot Agent Functionality
+
+1. Open a Microsoft Edge new tab and navigate to office 365 copilot <https://www.office.com/> then click on the **Sign in** button.
+
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image95.png)
+
+1. If asked, sign in with the given **Office 365** **Admin tenant credentials.**
+
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image96.png)
+
+1. On the left-hand menu, locate and click on the **Microsoft 365 Admin Agent**.
+
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image97.png)
+
+    >[!Note] If the agent doesn’t appear immediately, wait a few minutes for it to load.
+
+1. Click on the **“Learn admin tasks”** prompt to test the agent. Click the **Execute** button to run the prompt.
+
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image98.png)
+
+1. The prompt will run and return the results, confirming successful execution.
+
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image99.png)
+
+
+## Summary
+
+In this lab, you learnt to create a security group, add members and associate it with Dataverse environment. You created a DLP policy and examined its impact on the agent. You imported agent from trial environment to developer environment and shared that with the user.
