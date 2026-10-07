@@ -44,18 +44,14 @@ To set refresh cadence:
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%201%20-%20Create%20and%20manage%20environments/media/image2.png)
 
-1. Under **Refresh cadence**, choose the **cadence** type – +++Frequent+++ and then click on **Save** button.
+1. Under **Refresh cadence**, choose the **cadence** type - +++Frequent+++ and then click on **Save** button.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%201%20-%20Create%20and%20manage%20environments/media/image3.png)
-
-    > **Note:**
-
-    - By default, environments are automatically in
-    the **frequent** cadence; creating and editing canvas apps will receive updates once a week. When apps are published, they will receive the corresponding runtime version.
-
-    - If you've chosen the **moderate** cadence for the environment, all
-    creating and editing of canvas apps will receive updates once a month. When apps are published, they will receive the corresponding runtime version.
-
+    
+    > [!Note]
+    >
+    > - By default, environments are automatically in the **frequent** cadence; creating and editing canvas apps will receive updates once a week. When apps are published, they will receive the corresponding runtime version.
+    > - If you've chosen the **moderate** cadence for the environment, all creating and editing of canvas apps will receive updates once a month. When apps are published, they will receive the corresponding runtime version.
 
 ### Task 2: Control who can create and manage environments in the Power Platform admin center
 
@@ -180,7 +176,7 @@ You can set a sandbox, production, or trial (subscription-based) environment in 
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%201%20-%20Create%20and%20manage%20environments/media/image23.png)
 
-1. Select the new security role – **Security update** which was created above and then **Save** it.
+1. Select the new security role - **Security update** which was created above and then **Save** it.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%201%20-%20Create%20and%20manage%20environments/media/image24.png)
 
