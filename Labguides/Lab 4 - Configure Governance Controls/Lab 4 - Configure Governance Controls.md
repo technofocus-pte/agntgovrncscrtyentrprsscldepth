@@ -25,7 +25,7 @@ In this lab, you will learn how to create security group and add members to the 
 
 ### Task 1: Create a security group and add members to the security group
 
-1. Open new tab in the same browser and navigate to **Microsoft 365 admin center** using [**https://admin.microsoft.com**](urn:gd:lg:a:send-vm-keys). Sign in with your Office 365 tenant credentials.
+1. Open new tab in the same browser and navigate to **Microsoft 365 admin center** using +++https://admin.microsoft.com+++. Sign in with your Office 365 tenant credentials.
 
 1. Select **Teams & groups** \> **Active teams & groups**.
 
@@ -35,7 +35,7 @@ In this lab, you will learn how to create security group and add members to the 
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image2.png)
 
-1. Add the group **Name:** +++PPS-security+++ and **Description:** +++Power Platform security group+++, and then click **Next**.
+1. Add the group **Name:** `PPS-security` and **Description:** `Power Platform security group`, and then click **Next**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image3.png)
 
@@ -72,7 +72,7 @@ In this lab, you will learn how to create security group and add members to the 
 
 ### Task 2: Associate a security group with a Dataverse environment
 
-1. Open new tab and navigate to Power Platform admin center using [**https://admin.powerplatform.microsoft.com**](urn:gd:lg:a:send-vm-keys) and if required, sign in with your Office 365 tenant credentials.
+1. Open new tab and navigate to Power Platform admin center using +++https://admin.powerplatform.microsoft.com+++ and if required, sign in with your Office 365 tenant credentials.
 
 1. In the navigation pane, select **Manage \>** **Environments**, and then select **+New**.
 
@@ -80,7 +80,7 @@ In this lab, you will learn how to create security group and add members to the 
 
 1. On the New environment window, enter the following information.
 
-    **Name:** Test
+    **Name:** `Test`
 
     **Region**: United States – Default
 
@@ -109,7 +109,7 @@ In this lab, you will learn how to create security group and add members to the 
 
 ### Task 1: Create an agent
 
-1. Navigate to [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/) using <https://copilotstudio.microsoft.com/>. Sign in with your Office 365 Admin tenant credentials.
+1. Navigate to +++https://copilotstudio.microsoft.com/+++. Sign in with your Office 365 Admin tenant credentials.
 
 1. From the environment selector, select **Test** environment that has the tables you created in the previous exercise.
 
@@ -161,7 +161,7 @@ In this lab, you will learn how to create security group and add members to the 
 
 ### Task 1: Create a policy
 
-1. Navigate to Power Platform admin center using [**https://admin.powerplatform.microsoft.com**](urn:gd:lg:a:send-vm-keys) and if required, sign in with your Office 365 tenant credentials.
+1. Navigate to Power Platform admin center using +++https://admin.powerplatform.microsoft.com+++ and if required, sign in with your Office 365 tenant credentials.
 
 1. From the left navigation pane, select **Security**. Under **Security**, select **Data and privacy** then select **Data policy** tile.
 
@@ -207,7 +207,8 @@ In this lab, you will learn how to create security group and add members to the 
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image37.png)
 
-    **Task 2: Confirm policy enforcement**
+
+### Task 2: Confirm policy enforcement
 
     You can confirm that this connector is being used in the DLP policy from Copilot Studio:
 
@@ -229,11 +230,9 @@ In this lab, you will learn how to create security group and add members to the 
 
 1. Enter following Information and then select **Create**.
 
-    > **Name your topic:** Property Viewings Scheduling
-    >
-    > **Create a topic to...:** This topic would allow users to schedule
-    > property viewings directly through the chatbot, streamlining the
-    > booking process and enhancing the user experience
+    **Name your topic:** `Property Viewings Scheduling`
+    
+    **Create a topic to...:** `This topic would allow users to schedule property viewings directly through the chatbot, streamlining the booking process and enhancing the user experience`
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image42.png)
 
@@ -282,19 +281,19 @@ In this lab, you will learn how to create security group and add members to the 
 
 1. Enter the following information and then select **+New publisher**.
 
-    **Display name**: Real Estate
+    **Display name**: `Real Estate`
 
-    **Name**: RealEstate
+    **Name**: `RealEstate`
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image52.png)
 
 1. On the **New publisher** pane, enter the following information and then select **Save**.
 
-    **Display name:** Booking Service
+    **Display name:** `Booking Service`
 
-    **Name:** BookingService
+    **Name:** `BookingService`
 
-    **Prefix**: book
+    **Prefix**: `book`
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image53.png)
 
@@ -346,7 +345,7 @@ In this lab, you will learn how to create security group and add members to the 
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image65.png)
 
-    > **Task 2: Import Agent into Copilot Studio**
+### **Task 2: Import Agent into Copilot Studio**
 
 1. On the Copilot Studio portal, click on the **Environment selector** and select **Dev One** environment.
 
@@ -393,7 +392,7 @@ In this lab, you will learn how to create security group and add members to the 
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image75.png)
 
-1. In the **New User** field, enter +++Sara+++ and select the user **Sara Perez** from the dropdown.
+1. In the **New User** field, enter `Sara` and select the user **Sara Perez** from the dropdown.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image76.png)
 
@@ -433,7 +432,7 @@ In this lab, you will learn how to create security group and add members to the 
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image83.png)
 
-1. In the Agent Inventory, search for **Microsoft 365**, then open the **Admin Agent**.
+1. In the Agent Inventory, search for +++Microsoft 365+++, then open the **Admin Agent**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image84.png)
 
@@ -463,7 +462,7 @@ In this lab, you will learn how to create security group and add members to the 
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image91.png)
 
-1. Enter +++Sara+++ and select the user, **Sara Perez**.
+1. Enter `Sara` and select the user, **Sara Perez**.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image92.png)
 
@@ -478,7 +477,7 @@ In this lab, you will learn how to create security group and add members to the 
 
 ### Task 3: Test Microsoft 365 Admin Copilot Agent Functionality
 
-1. Open a Microsoft Edge new tab and navigate to office 365 copilot <https://www.office.com/> then click on the **Sign in** button.
+1. Open a Microsoft Edge new tab and navigate to office 365 copilot +++https://www.office.com/+++ then click on the **Sign in** button.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%204%20-%20Configure%20Governance%20Controls/media/image95.png)
 
