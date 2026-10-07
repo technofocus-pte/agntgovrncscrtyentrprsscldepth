@@ -34,7 +34,7 @@ You can indicate how often you would prefer an environment to receive updates an
 
 To set refresh cadence:
 
-1. Browse to the Power Platform admin center at [**https://admin.powerplatform.microsoft.com**](urn:gd:lg:a:send-vm-keys) and sign in with your Office 365 tenant credentials.
+1. Browse to the Power Platform admin center at +++https://admin.powerplatform.microsoft.com+++ and sign in with your Office 365 tenant credentials.
 
 1. From left navigation pane, select **Manage** \> **Environments** and then click on the **Dev One** environment.
 
@@ -47,11 +47,12 @@ To set refresh cadence:
 1. Under **Refresh cadence**, choose the **cadence** type - +++Frequent+++ and then click on **Save** button.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%201%20-%20Create%20and%20manage%20environments/media/image3.png)
-    
+  
     > [!Note]
     >
     > - By default, environments are automatically in the **frequent** cadence; creating and editing canvas apps will receive updates once a week. When apps are published, they will receive the corresponding runtime version.
     > - If you've chosen the **moderate** cadence for the environment, all creating and editing of canvas apps will receive updates once a month. When apps are published, they will receive the corresponding runtime version.
+
 
 ### Task 2: Control who can create and manage environments in the Power Platform admin center
 
@@ -99,7 +100,7 @@ You can set a sandbox, production, or trial (subscription-based) environment in 
 
 ### Task 1 - Create a new custom security role that only has access to "Security Role" table
 
-1. Open a new tab and navigate to [**https://make.powerapps.com**](urn:gd:lg:a:send-vm-keys). If required, sign in with your Office 365 tenant credentials.
+1. Open a new tab and navigate to +++https://make.powerapps.com+++. If required, sign in with your Office 365 tenant credentials.
 
 1. Select your **Dev One** environment.
 
