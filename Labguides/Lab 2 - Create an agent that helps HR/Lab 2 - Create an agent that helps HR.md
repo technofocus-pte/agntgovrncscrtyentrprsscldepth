@@ -1,13 +1,5 @@
 
-<!--
-lab:
-  title: 'Lab 2: Create an agent that helps HR with onboarding a new employee'
-  description: In this lab, you will learn how to automate the employee
-onboarding process at by building the Agent.
-  duration: 60 minutes
-  level: 100
-  islab: true
--->
+<!-- lab: title: 'Lab 2: Create an agent that helps HR with onboarding a new employee' description: In this lab, you will learn how to automate the employee onboarding process at by building the Agent. duration: 60 minutes level: 100 islab: true -->
 
 # Lab 2: Create an agent that helps HR with onboarding a new employee
 
@@ -70,7 +62,7 @@ A Dataverse table named Employee Record is used to store all employee onboarding
 
     > Employee ID: **Text**
     >
-    > Employee Name: +++Text+++
+    > Employee Name: **Text**
     >
     > Email: **Text**
     >
@@ -104,7 +96,6 @@ A Dataverse table named Employee Record is used to store all employee onboarding
     > **Job title** - Your job title
     >
     > **Business phone number** - Your phone number
-    >
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image9.png)
 
@@ -282,23 +273,25 @@ You will send a notification to the HR team to inform them that a new employee o
 
 1. Configure the "**Send an email**" trigger:
 
-    > **To:** HR (MOD Admin email - start typing **Admin** and select **MOD Admin** from the suggestion)
-    >
-    > **Subject:** New Employee Onboarding Request
-    >
-    > **Body:**
-    >
-    > Dear HR,
-    >
-    > Please start the onboarding process for the new employee:
-    >
-    > - Name: /Employee Name *{Select **Employee Name** from Dynamic content}*
-    > - Department: /Department *{Select **Department** from Dynamic content}*
-    > - Start Date: /Date of joining *{Select **Date of joining** from Dynamic content}*
-    >
-    > Regards,
-    >
-    > HR Onboarding Assistant
+    **To:** HR (MOD Admin email - start typing +++Admin+++ and select **MOD Admin** from the suggestion)
+
+    **Subject:** New Employee Onboarding Request
+
+
+    ### Body:
+
+    ```
+    Dear HR,
+
+    Please start the onboarding process for the new employee:
+    - Name: /Employee Name *{Select **Employee Name** from Dynamic content}*
+    - Department: /Department *{Select **Department** from Dynamic content}*
+    - Start Date: /Date of joining *{Select **Date of joining** from Dynamic content}*
+
+    Regards,
+
+    HR Onboarding Assistant
+    ```
 
     >[!Note] Set up the **dynamic value** for each parameter using triggerBody.
 
@@ -317,11 +310,13 @@ You now configure another email step to acknowledge the employee about their onb
 
 1. Configure send an email action
 
-    **To**: +++Your+++ email id (emp email)
+    **To**: Your email id (emp email)
 
-    **Subject**: Welcome to the Team
+    **Subject**: `Welcome to the Team`
 
-    **Body**: Hello
+    **Body**: 
+    ```
+    Hello
 
     Congratulations! You have been successfully onboarded at TF.
 
@@ -334,6 +329,7 @@ You now configure another email step to acknowledge the employee about their onb
     Regards,
 
     Contoso Onboarding Assistant
+    ```
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image36.png)
 
@@ -354,7 +350,7 @@ Rename the flow from untitled to Onboarding agent flow
 
 1. Change the flow name to Onboarding agent and Save
 
-    **Name**: onboarding agent
+    **Name**: `onboarding agent`
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image39.png)
 
@@ -397,10 +393,11 @@ Manually test the flow from Power Automate or from within Copilot Studio to veri
 
 1. Configure the topic:
 
-    **Name:** Employee details **Description:** An agent developed to simplify the employee onboarding process.
+    **Name:** `Employee details` 
+    **Description:** `An agent developed to simplify the employee onboarding process.`
 
 
-### Phrases:
+    ### Phrases:
     - Onboarding request
     - Help me onboard to TF
 
@@ -415,7 +412,7 @@ Manually test the flow from Power Automate or from within Copilot Studio to veri
 
 1. **Question node 1:**
 
-    **Question:** Enter your full name? **Identify as:** User's entire response **Var:** empname
+    **Question:** `Enter your full name?` **Identify as:** User's entire response **Var:** empname
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image48.png)
 
@@ -423,7 +420,7 @@ Manually test the flow from Power Automate or from within Copilot Studio to veri
 
 1. **Question node 2:**
 
-    **Question:** What is your employee ID? **Identify as:** User's entire response **Var:** empId
+    **Question:** `What is your employee ID?` **Identify as:** User's entire response **Var:** empId
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image50.png)
 
@@ -431,31 +428,31 @@ Manually test the flow from Power Automate or from within Copilot Studio to veri
 
 1. **Question node 3:**
 
-    **Question:** Provide your email Id **Identify as:** User's entire response **Var:** email
+    **Question:** `Provide your email Id` **Identify as:** User's entire response **Var:** email
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image52.png)
 
 1. **Question node 4:**
 
-    **Question:** Enter the department name **Identify as:** User's entire response **Var:** dept
+    **Question:** `Enter the department name` **Identify as:** User's entire response **Var:** dept
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image53.png)
 
 1. **Question node 5:**
 
-    **Question:** Enter the date of joining **Identify as:** User's entire response **Var:** doj
+    **Question:** `Enter the date of joining` **Identify as:** User's entire response **Var:** doj
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image54.png)
 
 1. **Question node 6:**
 
-    **Question:** Enter the designation **Identify as:** User's entire response **Var:** dsgn
+    **Question:** `Enter the designation` **Identify as:** User's entire response **Var:** dsgn
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image55.png)
 
 1. **Question node 7:**
 
-    **Question:** Enter the Manager's email address **Identify as:** User's entire response **Var:** mgremail
+    **Question:** `Enter the Manager's email address` **Identify as:** User's entire response **Var:** mgremail
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image56.png)
 
@@ -488,9 +485,7 @@ Manually test the flow from Power Automate or from within Copilot Studio to veri
 
     > **Message:**
     >
-    > "Thank you for providing your onboarding details. Your request has
-    > been forwarded to the HR team. You will receive a confirmation email
-    > upon successful completion of the onboarding process."
+    > `"Thank you for providing your onboarding details. Your request has been forwarded to the HR team. You will receive a confirmation email upon successful completion of the onboarding process."`
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%202%20-%20Create%20an%20agent%20that%20helps%20HR/media/image61.png)
 
