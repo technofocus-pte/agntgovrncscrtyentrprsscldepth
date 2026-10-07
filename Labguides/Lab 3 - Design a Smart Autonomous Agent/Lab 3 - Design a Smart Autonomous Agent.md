@@ -173,7 +173,7 @@ In this exercise, you'll learn how to enhance your agent by adding knowledge sou
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%203%20-%20Design%20a%20Smart%20Autonomous%20Agent/media/image31.png)
 
-1. From the top right corner search bar search for **Job Application**, select **Job application** Dataverse table and click on the **Add** Button.
+1. From the top right corner search bar search for +++Job Application+++, select **Job application** Dataverse table and click on the **Add** Button.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%203%20-%20Design%20a%20Smart%20Autonomous%20Agent/media/image32.png)
 
@@ -246,7 +246,7 @@ In this exercise, you'll create a flow to schedule interviews and integrate it w
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%203%20-%20Design%20a%20Smart%20Autonomous%20Agent/media/image48.png)
 
-1. In **Add an action** window search for **Add a new row** and select **Add a new row** action from Dataverse section.
+1. In **Add an action** window search for +++Add a new row+++ and select **Add a new row** action from Dataverse section.
 
     ![A screenshot of a computer program AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%203%20-%20Design%20a%20Smart%20Autonomous%20Agent/media/image49.png)
 
@@ -274,7 +274,7 @@ In this exercise, you'll create a flow to schedule interviews and integrate it w
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%203%20-%20Design%20a%20Smart%20Autonomous%20Agent/media/image56.png)
 
-1. In **Add an action** section search for **Send an email office 365 outlook** and select **Send an email** (V2) from office 365 outlook section.
+1. In **Add an action** section search for +++Send an email office 365 outlook+++ and select **Send an email** (V2) from office 365 outlook section.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%203%20-%20Design%20a%20Smart%20Autonomous%20Agent/media/image57.png)
 
@@ -333,7 +333,7 @@ In this exercise, you'll create a flow to schedule interviews and integrate it w
 
 In this exercise, you'll create a Python Developer Application Form using Microsoft Forms. You'll sign in to Microsoft Forms, create a new form titled "Python Developer Application Form," and add required fields such as name, contact number, email, experience, skills, and interview schedule. Once the form is created, you'll collect responses by generating a URL and testing the form to ensure it works as expected. This exercise helps you build a structured form to gather applicant information efficiently.
 
-1. Navigate to Microsoft forms website <https://www.microsoft.com/en-gb/microsoft-365/online-surveys-polls-quizzes> and click on the **Sign in** button.
+1. Navigate to Microsoft forms website +++https://www.microsoft.com/en-gb/microsoft-365/online-surveys-polls-quizzes+++ and click on the **Sign in** button.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%203%20-%20Design%20a%20Smart%20Autonomous%20Agent/media/image71.png)
 
@@ -386,7 +386,7 @@ In this exercise, you'll automate the process of checking applicant eligibility 
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%203%20-%20Design%20a%20Smart%20Autonomous%20Agent/media/image84.png)
 
-1. From the top right corner search for **Form** and select **When a new response is submitted** trigger and then click on the **Next** button.
+1. From the top right corner search for +++Form+++ and select **When a new response is submitted** trigger and then click on the **Next** button.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%203%20-%20Design%20a%20Smart%20Autonomous%20Agent/media/image85.png)
 
@@ -441,11 +441,11 @@ In this exercise, you'll automate the process of checking applicant eligibility 
 1. Select **Send a prompt to the specified copilot for processing** action. Enter the below given message in the body/message field.
 
     >[!Note] There is multiple dynamic content variables are selected in the message please replace the message content with the help of dynamic content thunder bolt option.
-    >
-    > Gather information from **Python Skills (Variable)** and **How many
-    > years of Python development experience do you have? (Variable)**.
-    > Check the eligibility criteria of applicant. If applicant is eligible
+    
     ```
+    Gather information from **Python Skills (Variable)** and **How many
+    years of Python development experience do you have? (Variable)**.
+    Check the eligibility criteria of applicant. If applicant is eligible
     for python developer, run interview scheduler flow and use
     details **Full Name (Variable), Contact Number (Variable), Email
     Address (Variable), How many years of Python development experience do
