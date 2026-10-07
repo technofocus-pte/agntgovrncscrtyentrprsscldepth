@@ -57,12 +57,11 @@ In this lab, you will acquire Power Apps trial license. You will also add users 
 
 1. Under the **Username** column, update the tenant name to reflect your Office 365 tenant name for each user in the list and then save as a CSV format file.
 
-    > E.g. if your Office 365 tenant is <admin@LODSA7xx479.onmicrosoft.com>,
-    > your domain would be LODSA7xx479.
-    >
-    > eg : <brookeg@LODSA7xx479.onmicrosoft.com>
+    >[!Note] Your Office 365 tenant is @lab.CloudCredential(M365).AdministrativeUsername,
+    > your domain would be **@lab.CloudCredential(M365).TenantPrefix**.
+    
 
-1. Navigate to the Microsoft 365 admin center using +++https://admin.microsoft.com+++/+++
+1. Navigate to the Microsoft 365 admin center using +++https://admin.microsoft.com+++
 
 1. From the left navigation, select **Users** \> **Active users** page, click **Add multiple users**.
 
