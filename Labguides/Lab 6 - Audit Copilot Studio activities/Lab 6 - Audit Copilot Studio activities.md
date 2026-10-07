@@ -20,7 +20,7 @@ interactions with agents in Microsoft Purview.
 
 In this lab, you will learn how Copilot Studio logs activities related to both administrative and maker and user interactions with agents in Microsoft Purview.
 
-- To access the logs, sign in to the [Microsoft Purview compliance portal](https://purview.microsoft.com/) using <https://purview.microsoft.com/> with the given Office 365 Admin tenant credentials.
+- To access the logs, sign in to the +++https://purview.microsoft.com/+++ with the given Office 365 Admin tenant credentials.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%206%20-%20Audit%20Copilot%20Studio%20activities/media/image1.png)
 
@@ -32,7 +32,7 @@ In this lab, you will learn how Copilot Studio logs activities related to both a
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%206%20-%20Audit%20Copilot%20Studio%20activities/media/image3.png)
 
-- From the drop-down menu of the **Activities – friendly names**, type +++bot+++ in the search bar and select **Created Copilot (Bot)** listed under **Power Platform Copilot (Bot) Management.**
+- From the drop-down menu of the **Activities – friendly names**, type `bot` in the search bar and select **Created Copilot (Bot)** listed under **Power Platform Copilot (Bot) Management.**
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%206%20-%20Audit%20Copilot%20Studio%20activities/media/image4.png)
 
@@ -48,7 +48,7 @@ In this lab, you will learn how Copilot Studio logs activities related to both a
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%206%20-%20Audit%20Copilot%20Studio%20activities/media/image7.png)
 
-- From the drop-down menu of the **Activities – friendly names**, type +++Copilot+++ in the search bar and select **Interacted with Copilot** listed under **Copilot activities**. Configure **Start date** as 3-4 days before the current date and **End date** as current date and then select **Search**.
+- From the drop-down menu of the **Activities – friendly names**, type `Copilot` in the search bar and select **Interacted with Copilot** listed under **Copilot activities**. Configure **Start date** as 3-4 days before the current date and **End date** as current date and then select **Search**.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%206%20-%20Audit%20Copilot%20Studio%20activities/media/image8.png)
 
