@@ -1,4 +1,4 @@
----
+<!--
 lab:
   title: 'Lab 6: Audit Copilot Studio activities in Microsoft Purview'
   description: In this lab, you will learn how Copilot Studio logs
@@ -10,75 +10,53 @@ interactions with agents in Microsoft Purview.
   primarytopics:
     - Microsoft Purview
     - Office 365
----
+-->
 
-# **Lab 6: Audit Copilot Studio activities in Microsoft Purview**
+# Lab 6: Audit Copilot Studio activities in Microsoft Purview
 
 **Estimated Duration:** 15 min
 
-**Objective:** In this lab, you will learn how Copilot Studio logs
-activities related to both administrative and maker and user
-interactions with agents in Microsoft Purview.
+### Objective
 
-1.  To access the logs, sign in to the [Microsoft Purview compliance
-    portal](https://purview.microsoft.com/)
-    using <https://purview.microsoft.com/> with the given Office 365
-    Admin tenant credentials.
+In this lab, you will learn how Copilot Studio logs activities related to both administrative and maker and user interactions with agents in Microsoft Purview.
 
-> ![](./media/image1.png)
+- To access the logs, sign in to the +++https://purview.microsoft.com/+++ with the given Office 365 Admin tenant credentials.
 
-2.  From the left navigation pane, select **Solutions** and then select
-    **Audit**.
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%206%20-%20Audit%20Copilot%20Studio%20activities/media/image1.png)
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image2.png)
+- From the left navigation pane, select **Solutions** and then select **Audit**.
 
-3.  You can the **Search** window where you can search for the different
-    activities.
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%206%20-%20Audit%20Copilot%20Studio%20activities/media/image2.png)
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image3.png)
+- You can the **Search** window where you can search for the different activities.
 
-4.  From the drop-down menu of the **Activities – friendly names**, type
-    **bot** in the search bar and select **Created Copilot (Bot)**
-    listed under **Power Platform Copilot (Bot) Management.**
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%206%20-%20Audit%20Copilot%20Studio%20activities/media/image3.png)
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image4.png)
+- From the drop-down menu of the **Activities – friendly names**, type `bot` in the search bar and select **Created Copilot (Bot)** listed under **Power Platform Copilot (Bot) Management.**
 
-5.  Configure **Start date** as 3-4 days before the current date and
-    **End date** as current date and then select **Search**.
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%206%20-%20Audit%20Copilot%20Studio%20activities/media/image4.png)
 
-> ![](./media/image5.png)
+- Configure **Start date** as 3-4 days before the current date and **End date** as current date and then select **Search**.
 
-6.  The search process has started. Select Refresh to check if the
-    process is 100% completed.
+    ![](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%206%20-%20Audit%20Copilot%20Studio%20activities/media/image5.png)
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image6.png)
+- The search process has started. Select Refresh to check if the process is 100% completed.
 
-7.  To see the details of your search, select your search from the
-    search name list.
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%206%20-%20Audit%20Copilot%20Studio%20activities/media/image6.png)
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image7.png)
+- To see the details of your search, select your search from the search name list.
 
-8.  From the drop-down menu of the **Activities – friendly names**, type
-    **Copilot** in the search bar and select **Interacted with Copilot**
-    listed under **Copilot activities**. Configure **Start date** as 3-4
-    days before the current date and **End date** as current date and
-    then select **Search**.
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%206%20-%20Audit%20Copilot%20Studio%20activities/media/image7.png)
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image8.png)
+- From the drop-down menu of the **Activities – friendly names**, type `Copilot` in the search bar and select **Interacted with Copilot** listed under **Copilot activities**. Configure **Start date** as 3-4 days before the current date and **End date** as current date and then select **Search**.
 
-9.  You can see the search status. Select **Refresh** if required.
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%206%20-%20Audit%20Copilot%20Studio%20activities/media/image8.png)
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image9.png)
+- You can see the search status. Select **Refresh** if required.
 
-**Summary:** In this lab, you learnt how to audit Copilot Studio
-activities in Microsoft Purview. It's important to audit actions such as
-changes to the content and settings to help mitigate failures, help
-contain systems of security constraints, adhere to compliance
-requirements, and act on security threats.
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/agntgovrncscrtyentrprsscldepth/refs/heads/main/Labguides/Lab%206%20-%20Audit%20Copilot%20Studio%20activities/media/image9.png)
+
+
+## Summary
+
+In this lab, you learnt how to audit Copilot Studio activities in Microsoft Purview. It's important to audit actions such as changes to the content and settings to help mitigate failures, help contain systems of security constraints, adhere to compliance requirements, and act on security threats.
